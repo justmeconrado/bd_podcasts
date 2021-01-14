@@ -1,0 +1,32 @@
+.topics {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    margin-bottom: 2rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    .container__topics{
+      align-items: center;
+      text-align: center;
+    }
+    .title__topics {
+      font-family: "IBM PLex Sans", sans-serif;
+      font-weight: normal;
+      font-size: 2.25rem;
+      letter-spacing: 0px;
+      line-height: 42px;
+      font-weight: 400;
+      margin-bottom: 2rem;
+    }
+    .text__topics {
+      font-family: "IBM PLex Sans", sans-serif;
+      font-weight: normal;
+      font-size: 1.5rem;
+      letter-spacing: 0px;
+      font-weight: 600;
+      margin-bottom: 2.5rem;
+      margin-top: 1rem;
+    }
+  }
+  

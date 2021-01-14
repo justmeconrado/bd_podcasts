@@ -1,0 +1,131 @@
+header {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__content {
+  height: 44px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .logo__nav {
+    width: 24px;
+    height: 24px;
+    margin-left: 1em;
+  }
+  nav {
+    label {
+      color: black;
+      box-sizing: border-box;
+      font-weight: bold;
+      text-align: center;
+      user-select: none;
+      width: 14px;
+      height: 14px;
+    }
+
+    .open {
+      display: block;
+      margin-right: 1em;
+    }
+    .close {
+      display: none;
+      margin-right: 1em;
+    }
+
+    #menu:checked ~ ul {
+      display: block;
+    }
+
+    #menu:checked ~ .open {
+      display: none;
+    }
+    #menu:checked ~ .close {
+      display: block;
+    }
+
+    #menu {
+      display: none;
+    }
+
+    ul {
+      position: absolute;
+      display: none;
+      background-color: #0000ec;
+      height: 224px;
+      width: 100%;
+      left: 0px;
+      top: 3em;
+
+      li {
+        list-style: none;
+        height: 28px;
+        width: 100%;
+        margin-left: 1em;
+        margin-top: 1.5em;
+
+        .link {
+          font-family: "IBM Plex Mono", monospace, sans-serif;
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+h1 {
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  font-family: "IBM PLex Sans", sans-serif;
+  font-weight: normal;
+  font-size: 2.25rem;
+  letter-spacing: 0px;
+  line-height: 42px;
+
+  .line {
+    text-decoration: line-through;
+  }
+  .bluedot {
+    color: #0000ec;
+    position: absolute;
+  }
+}
+
+.text__title {
+  width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0px;
+  line-height: 22px;
+  font-family: "IBM Plex Mono", monospace, sans-serif;
+  text-align: justify;
+  font-size: 0.9em;
+}
+
+.button__getmore {
+  width: 290px;
+  height: 48px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #00f3bb;
+  font-family: "IBM Plex Mono", monospace, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #060a24;
+  font-weight: 500;
+}
+

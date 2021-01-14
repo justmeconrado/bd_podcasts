@@ -1,0 +1,1056 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px; }
+
+html {
+  width: 100%; }
+
+header {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.nav__content {
+  height: 44px;
+  width: 100%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .nav__content .logo__nav {
+    width: 24px;
+    height: 24px;
+    margin-left: 1em; }
+  .nav__content nav label {
+    color: black;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    width: 14px;
+    height: 14px; }
+  .nav__content nav .open {
+    display: block;
+    margin-right: 1em; }
+  .nav__content nav .close {
+    display: none;
+    margin-right: 1em; }
+  .nav__content nav #menu:checked ~ ul {
+    display: block; }
+  .nav__content nav #menu:checked ~ .open {
+    display: none; }
+  .nav__content nav #menu:checked ~ .close {
+    display: block; }
+  .nav__content nav #menu {
+    display: none; }
+  .nav__content nav ul {
+    position: absolute;
+    display: none;
+    background-color: #0000ec;
+    height: 224px;
+    width: 100%;
+    left: 0px;
+    top: 3em; }
+    .nav__content nav ul li {
+      list-style: none;
+      height: 28px;
+      width: 100%;
+      margin-left: 1em;
+      margin-top: 1.5em; }
+      .nav__content nav ul li .link {
+        font-family: "IBM Plex Mono", monospace, sans-serif;
+        text-decoration: none;
+        color: white; }
+
+h1 {
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  font-family: "IBM PLex Sans", sans-serif;
+  font-weight: normal;
+  font-size: 2.25rem;
+  letter-spacing: 0px;
+  line-height: 42px; }
+  h1 .line {
+    text-decoration: line-through; }
+  h1 .bluedot {
+    color: #0000ec;
+    position: absolute; }
+
+.text__title {
+  width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0px;
+  line-height: 22px;
+  font-family: "IBM Plex Mono", monospace, sans-serif;
+  text-align: justify;
+  font-size: 0.9em; }
+
+.button__getmore {
+  width: 290px;
+  height: 48px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: #00f3bb;
+  font-family: "IBM Plex Mono", monospace, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #060a24;
+  font-weight: 500; }
+
+.episodes {
+  width: 100%;
+  height: 1275px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0 100%);
+          clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
+  background-image: linear-gradient(#0000ff, #0000a3); }
+  .episodes .title__episodes {
+    width: 288px;
+    height: 48px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "IBM PLex Sans", sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    letter-spacing: 0px;
+    line-height: 42px;
+    color: white; }
+  .episodes .episodes__container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    justify-items: center;
+    gap: 10px; }
+
+.reposition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: -100px; }
+
+.phone__img {
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 320px;
+  height: 520px;
+  z-index: 1; }
+
+.about_us {
+  width: 90%;
+  margin-left: 16px; }
+  .about_us .title__about_us {
+    font-family: "IBM PLex Sans", sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    letter-spacing: 0px;
+    line-height: 42px;
+    font-weight: 400;
+    margin-bottom: 1rem; }
+  .about_us .text__about_us {
+    letter-spacing: 0px;
+    line-height: 22px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-size: 0.85rem;
+    margin-bottom: 2rem; }
+
+.guests {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .guests .title__guests {
+    width: 90%;
+    margin-left: 16px;
+    font-family: "IBM PLex Sans", sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    letter-spacing: 0px;
+    line-height: 42px;
+    font-weight: 400;
+    margin-bottom: 1rem; }
+  .guests .img__guests {
+    width: 100%;
+    height: auto; }
+
+.topics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+  margin-bottom: 2rem;
+  margin-left: 1em;
+  margin-right: 1em; }
+  .topics .container__topics {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+  .topics .title__topics {
+    font-family: "IBM PLex Sans", sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    letter-spacing: 0px;
+    line-height: 42px;
+    font-weight: 400;
+    margin-bottom: 2rem; }
+  .topics .text__topics {
+    font-family: "IBM PLex Sans", sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem; }
+
+.last_news {
+  width: 100%;
+  height: 341px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0 100%);
+          clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
+  background-image: linear-gradient(#0000ff, #0000a3); }
+  .last_news .title__last_news {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "IBM PLex Sans", sans-serif;
+    font-weight: normal;
+    font-size: 2.25rem;
+    letter-spacing: 0px;
+    line-height: 42px;
+    color: white;
+    text-align: center;
+    font-weight: normal; }
+  .last_news .button__listen_more {
+    width: 90%;
+    height: 48px;
+    margin-top: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    background-color: #00f3bb;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #060a24; }
+
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 1;
+  margin-bottom: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+  footer .text__footer {
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 22px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-size: 0.85rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  footer .brands__footer {
+    width: 90%;
+    margin-left: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+  footer .brands {
+    color: #060a24; }
+
+@media screen and (min-width: 768px) {
+  .nav__content {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .nav__content .logo__nav {
+      margin-left: 100px;
+      margin-top: 22px;
+      width: 36px;
+      height: 36px; }
+    .nav__content nav {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex; }
+      .nav__content nav .open {
+        display: none; }
+      .nav__content nav .close {
+        display: none; }
+      .nav__content nav input {
+        display: none; }
+      .nav__content nav label {
+        display: none; }
+      .nav__content nav input:checked ~ ul {
+        display: none; }
+      .nav__content nav ul {
+        margin-left: 0px;
+        margin-right: 75px;
+        position: relative;
+        display: block;
+        background-color: white;
+        height: auto;
+        width: auto;
+        left: auto;
+        top: 0em;
+        margin-top: 30px; }
+        .nav__content nav ul li {
+          display: inline;
+          list-style: none;
+          height: 28px;
+          width: auto;
+          margin-left: 3em; }
+          .nav__content nav ul li .link {
+            font-family: "IBM Plex Mono", monospace, sans-serif;
+            text-decoration: none;
+            color: #060a24;
+            font-size: 1em;
+            -webkit-transition: all 0.1s linear;
+            transition: all 0.1s linear; }
+          .nav__content nav ul li .link:hover {
+            color: #00f3bb; }
+          .nav__content nav ul li .link:active {
+            color: lightgray;
+            text-decoration: line-through; }
+
+  .title {
+    width: 55%;
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    font-family: "IBM PLex Sans", sans-serif;
+    font-weight: normal;
+    font-size: 4em;
+    letter-spacing: normal;
+    line-height: normal; }
+    .title .line {
+      text-decoration: line-through; }
+    .title .bluedot {
+      color: #0000ff;
+      position: absolute; }
+
+  .text__title {
+    width: 42%;
+    margin-left: 200px;
+    margin-top: 1em;
+    letter-spacing: 0px;
+    line-height: 22px;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    text-align: justify;
+    font-size: 1em; }
+
+  .button__getmore {
+    width: 226px;
+    height: 56px;
+    margin-top: 36px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    background-color: #00f3bb;
+    font-family: "IBM Plex Mono", monospace, sans-serif;
+    font-size: 1.15em;
+    letter-spacing: 0px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #060a24;
+    font-weight: 500;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+
+  .button__getmore:hover {
+    color: white;
+    background: #00f0b8;
+    background: -webkit-gradient(linear, left top, right top, color-stop(25%, #00f0b8), to(#0000fe));
+    background: linear-gradient(90deg, #00f0b8 25%, #0000fe 100%); }
+
+  .episodes {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 1100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0 100%);
+            clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
+    background-image: linear-gradient(#0000ff, #0000a3); }
+    .episodes .title__episodes {
+      width: auto;
+      height: 48px;
+      margin-top: 190px;
+      margin-bottom: 1em;
+      margin-left: 200px;
+      font-family: "IBM PLex Sans", sans-serif;
+      font-weight: normal;
+      font-size: 3em;
+      letter-spacing: 0px;
+      line-height: 42px;
+      color: white; }
+    .episodes .episodes__container {
+      width: auto;
+      margin-left: 100px;
+      margin-right: 100px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5em;
+      grid-auto-columns: auto;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      justify-items: center; }
+
+  .reposition {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: -200px; }
+
+  .phone__img {
+    width: 457.6px;
+    height: auto;
+    z-index: 1; }
+
+  .about_us {
+    width: 30%; }
+    .about_us .title__about_us {
+      font-family: "IBM PLex Sans", sans-serif;
+      font-weight: normal;
+      font-size: 3em;
+      letter-spacing: 0px;
+      line-height: 42px;
+      font-weight: 400;
+      margin-top: 14rem;
+      margin-bottom: 2.5rem; }
+    .about_us .text__about_us {
+      letter-spacing: 0px;
+      line-height: 22px;
+      font-family: "IBM Plex Mono", monospace, sans-serif;
+      font-size: 1em;
+      margin-bottom: 2rem; }
+
+  .guests {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 3rem; }
+    .guests .title__guests {
+      width: auto;
+      margin-left: 200px;
+      font-family: "IBM PLex Sans", sans-serif;
+      font-weight: normal;
+      font-size: 3em;
+      letter-spacing: 0px;
+      line-height: 42px;
+      font-weight: 400; }
+    .guests .container_img__guests {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-columns: auto;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      justify-items: center;
+      width: 100%;
+      height: auto; }
+
+  .topics {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: calc(100vw - 30.5vw);
+    margin-bottom: 2rem; }
+    .topics .title__topics {
+      text-align: center;
+      font-family: "IBM PLex Sans", sans-serif;
+      font-weight: normal;
+      font-size: 3em;
+      letter-spacing: 0px;
+      line-height: 42px;
+      font-weight: 400;
+      margin-bottom: 2rem; }
+    .topics .container__topics {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .topics .card_topics {
+      width: 220px; }
+    .topics .text__topics {
+      text-align: center;
+      font-family: "IBM PLex Sans", sans-serif;
+      font-weight: normal;
+      font-size: 1.5rem;
+      letter-spacing: 0px;
+      font-weight: 600;
+      margin-bottom: 2.5rem;
+      margin-top: 1rem; }
+
+  .last_news {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 518px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0 100%);
+            clip-path: polygon(0 23%, 100% 0%, 100% 100%, 0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0000ff), to(#0000a3));
+    background-image: linear-gradient(#0000ff, #0000a3); }
+    .last_news .title__last_news {
+      font-family: "IBM PLex Sans", sans-serif;
+      font-size: 3em;
+      font-weight: 400;
+      letter-spacing: 0px;
+      line-height: 42px;
+      color: white;
+      text-align: center;
+      font-weight: normal; }
+    .last_news .button__listen_more {
+      width: 345px;
+      height: 56px;
+      margin-top: 2em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      text-align: center;
+      background-color: #00f3bb;
+      font-family: "IBM Plex Mono", monospace, sans-serif;
+      font-size: 1.15em;
+      letter-spacing: 0px;
+      line-height: 22px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #060a24;
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+    .last_news .button__listen_more:hover {
+      color: white;
+      background: #00f0b8;
+      background: -webkit-gradient(linear, left top, right top, color-stop(25%, #00f0b8), to(#0000fe));
+      background: linear-gradient(90deg, #00f0b8 25%, #0000fe 100%); }
+
+  footer {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    footer .text__footer {
+      width: 269px;
+      font-size: 1rem;
+      margin-left: 7%;
+      margin-top: 36px;
+      margin-bottom: 0;
+      font-family: "IBM Plex Mono", monospace, sans-serif; }
+    footer .brands__footer {
+      width: 274px;
+      margin-right: 7%;
+      margin-top: 36px;
+      margin-left: auto;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; }
+    footer .brandicon {
+      color: #060a24; } }
+
+/*# sourceMappingURL=style.css.map */
