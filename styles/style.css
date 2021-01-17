@@ -553,7 +553,11 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    text-align: center; }
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .topics .card_topics {
+    width: 220px; }
   .topics .title__topics {
     font-family: "IBM PLex Sans", sans-serif;
     font-weight: normal;
@@ -622,7 +626,7 @@ h1 {
     font-size: 1rem;
     letter-spacing: 0px;
     line-height: 22px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     color: #060a24; }
 
@@ -726,7 +730,8 @@ footer {
             -webkit-transition: all 0.1s linear;
             transition: all 0.1s linear; }
           .nav__content nav ul li .link:hover {
-            color: #00f3bb; }
+            color: #00f3bb;
+            text-decoration: line-through; }
           .nav__content nav ul li .link:active {
             color: lightgray;
             text-decoration: line-through; }
@@ -856,7 +861,7 @@ footer {
     z-index: 1; }
 
   .about_us {
-    width: 30%; }
+    width: 32%; }
     .about_us .title__about_us {
       font-family: "IBM PLex Sans", sans-serif;
       font-weight: normal;
@@ -893,7 +898,9 @@ footer {
       font-size: 3em;
       letter-spacing: 0px;
       line-height: 42px;
-      font-weight: 400; }
+      font-weight: 400;
+      margin-bottom: 1em;
+      margin-top: 1em; }
     .guests .container_img__guests {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -908,6 +915,8 @@ footer {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2em;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -916,21 +925,16 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: calc(100vw - 30.5vw);
-    margin-bottom: 2rem; }
+        flex-wrap: wrap; }
     .topics .title__topics {
-      text-align: center;
+      margin-left: 200px;
       font-family: "IBM PLex Sans", sans-serif;
       font-weight: normal;
       font-size: 3em;
       letter-spacing: 0px;
       line-height: 42px;
       font-weight: 400;
-      margin-bottom: 2rem; }
+      margin-bottom: 2em; }
     .topics .container__topics {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -944,14 +948,15 @@ footer {
               justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center;
+      width: 70%; }
     .topics .card_topics {
       width: 220px; }
     .topics .text__topics {
       text-align: center;
       font-family: "IBM PLex Sans", sans-serif;
       font-weight: normal;
-      font-size: 1.5rem;
+      font-size: 1.4em;
       letter-spacing: 0px;
       font-weight: 600;
       margin-bottom: 2.5rem;

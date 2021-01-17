@@ -9,6 +9,11 @@
     .container__topics{
       align-items: center;
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .card_topics {
+      width: 220px;
     }
     .title__topics {
       font-family: "IBM PLex Sans", sans-serif;

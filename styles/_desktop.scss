@@ -61,6 +61,7 @@
 
           .link:hover {
             color: #00f3bb;
+            text-decoration: line-through;
           }
 
           .link:active {
@@ -185,7 +186,7 @@
     z-index: 1;
   }
   .about_us {
-    width: 30%;
+    width: 32%;
     .title__about_us {
       font-family: "IBM PLex Sans", sans-serif;
       font-weight: normal;
@@ -221,6 +222,8 @@
       letter-spacing: 0px;
       line-height: 42px;
       font-weight: 400;
+      margin-bottom: 1em;
+      margin-top: 1em;
     }
     .container_img__guests {
       display: grid;
@@ -237,27 +240,27 @@
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2em;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    width: calc(100vw - 30.5vw);
-    margin-bottom: 2rem;
     .title__topics {
-      text-align: center;
+      margin-left: 200px;
       font-family: "IBM PLex Sans", sans-serif;
       font-weight: normal;
       font-size: 3em;
       letter-spacing: 0px;
       line-height: 42px;
       font-weight: 400;
-      margin-bottom: 2rem;
+      margin-bottom: 2em;
     }
     .container__topics {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
       align-items: center;
+      width: 70%;
     }
     .card_topics {
       width: 220px;
@@ -266,7 +269,7 @@
       text-align: center;
       font-family: "IBM PLex Sans", sans-serif;
       font-weight: normal;
-      font-size: 1.5rem;
+      font-size: 1.4em;
       letter-spacing: 0px;
       font-weight: 600;
       margin-bottom: 2.5rem;
