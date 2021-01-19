@@ -12,9 +12,12 @@
       font-weight: 400;
       margin-bottom: 1rem;
     }
-    .img__guests {
+    .img__guests { 
+      display: flex;
+      flex: column;
       width: 100%;
       height: auto;
+      line-height: 0;
     }
   }
   

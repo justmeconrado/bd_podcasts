@@ -532,10 +532,18 @@ h1 {
     font-weight: 400;
     margin-bottom: 1rem; }
   .guests .img__guests {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: column;
+        -ms-flex: column;
+            flex: column;
     width: 100%;
-    height: auto; }
+    height: auto;
+    line-height: 0; }
 
 .topics {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -546,9 +554,7 @@ h1 {
   -ms-flex-line-pack: center;
       align-content: center;
   justify-items: center;
-  margin-bottom: 2rem;
-  margin-left: 1em;
-  margin-right: 1em; }
+  margin-bottom: 2rem; }
   .topics .container__topics {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -565,7 +571,9 @@ h1 {
     letter-spacing: 0px;
     line-height: 42px;
     font-weight: 400;
-    margin-bottom: 2rem; }
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 16px; }
   .topics .text__topics {
     font-family: "IBM PLex Sans", sans-serif;
     font-weight: normal;
