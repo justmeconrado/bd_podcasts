@@ -126,13 +126,13 @@
   }
 
   .button__getmore:hover {
-  color: white;
-  background: rgb(0, 240, 184);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 240, 184, 1) 25%,
-    rgba(0, 0, 254, 1) 100%
-  );
+    color: white;
+    background: rgb(0, 240, 184);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 240, 184, 1) 25%,
+      rgba(0, 0, 254, 1) 100%
+    );
   }
 
   .episodes {
@@ -168,6 +168,9 @@
       grid-auto-columns: auto;
       align-content: center;
       justify-items: center;
+      .widgets__episodes {
+        width: 100%;
+      }
     }
   }
   .reposition {
